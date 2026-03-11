@@ -23,7 +23,7 @@ body {
 #header {
   display: flex;
   justify-content: left;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 #hero {
@@ -59,9 +59,39 @@ body {
 
 #email-form {
   display: flex;
+  align-items: center;
+
+  border: 1px solid #cecece; 
+  border-radius: 25px;
+  /* padding: 5px; */
+  width: 100%;
+  max-width: 400px;
+}
+
+#email {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 10px 25px;
+  background: transparent;
+
+  min-width: 0; 
+}
+
+#submit-btn {
+  background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 12px 25px;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  /* gap: 1rem; */
-  /* margin-top: 2rem; */
+  transition: opacity 0.2s;
+}
+
+#submit-btn:hover {
+  opacity: 0.8;
 }
 
 .logo {
