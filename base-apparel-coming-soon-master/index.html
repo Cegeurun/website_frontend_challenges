@@ -19,25 +19,33 @@
     <img class="logo" src="./images/logo.svg" alt="Base Apparel Logo">
   </header>
 
-  <div id="hero">
-    <!-- <img src="./images/hero-mobile.jpg" alt="Hero Image"> -->
-  </div>
-  
-  <div id="content">
-    <p id="we-are">We're</p> <p id="coming-soon">coming soon</p>
-
-    <br>
-    <p class="description">
-    Hello fellow shoppers! We're currently building our new fashion store. 
-    Add your email below to stay up-to-date with announcements and our launch deals.
-    </p>
-    <br>
-    <div id="email-form">
-    <input type="email" id="email" name="email" placeholder="Email Address">
-    <button id="submit-btn"><img src="./images/icon-arrow.svg" alt="Arrow Icon"></button>
+  <div id="desktop-layout">
+    <div id="hero-container">
+      <picture>
+        <source media="(min-width: 1440px)" srcset="./images/hero-desktop.jpg" id="hero">
+        <img src="./images/hero-mobile.jpg" alt="Hero Image" id="hero">
+      </picture>
     </div>
-  
+    
+    <div id="content">
+      <img class="logo" id="content-logo" src="./images/logo.svg" alt="Base Apparel Logo">
+
+      <p id="we-are">We're</p> <div><p class="coming-soon">coming</p> <p class="coming-soon">soon</p></div>
+
+      <br>
+      <p class="description">
+      Hello fellow shoppers! We're currently building our new fashion store. 
+      Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
+      <br>
+      <div id="email-form">
+      <input type="email" id="email" name="email" placeholder="Email Address">
+      <button id="submit-btn"><img src="./images/icon-arrow.svg" alt="Arrow Icon"></button>
+      </div>
+    
+    </div>
   </div>
+ 
   
 
   
